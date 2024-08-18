@@ -32,3 +32,17 @@ The projection layer's main purpose is to map the visual and textual features in
 
 # Text Decoder
 In a Vision-Language Model (VLM), the text decoder takes the processed visual information (embeddings) from the Projection Layer and generates human-readable text from it. It essentially "translates" the visual details into a sentence, phrase, or word, allowing the model to produce captions, answer questions, or provide descriptions based on the image. The text decoder turns the model's understanding of an image into language that we can easily understand. 
+
+# PEFT (Parameter Effecient Fine Tuning)
+As models get larger and larger, full fine-tuning becomes infeasible to train on consumer hardware. In addition, storing and deploying fine-tuned models independently for each downstream task becomes very expensive, because fine-tuned models are the same size as the original pretrained model. Parameter-Efficient Fine-tuning (PEFT) approaches are meant to address both problems!
+
+PEFT approaches only fine-tune a small number of (extra) model parameters while freezing most parameters of the pretrained LLMs, thereby greatly decreasing the computational and storage costs. This also overcomes the issues of catastrophic forgetting, a behaviour observed during the full finetuning of LLMs. PEFT approaches have also shown to be better than fine-tuning in the low-data regimes and generalize better to out-of-domain scenarios.
+
+![image](https://github.com/user-attachments/assets/2ad6173d-48df-4bd5-9cc7-f10590662660)
+
+# Parameters
+1) Rank: 32
+2) Alpha: 64
+3) lr: 1e-4
+4) lr scheduler: CosineAnnealingLR ()
+
