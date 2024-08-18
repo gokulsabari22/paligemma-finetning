@@ -4,8 +4,8 @@ Paligemma Finetuning for Medical dataset (Brain Scans)
 
 # Dataset Used:
 The dataset consists of brain scan and corresponding ground truth. 
-Train: 161k
-Test: 500
+1) Train: 161k
+2) Test: 500
 
 Link: gokulsabari/brain-xray (Uploaded in HuggingFace Dataset)
 
@@ -15,8 +15,8 @@ Paligemma (google/paligemma-3b-pt-224)
 
 ![image](https://github.com/user-attachments/assets/f9100a93-9815-42e9-9632-075adbae7a37)
 
-Encoder Used: SigLIP-So400m
-Decoder used: Gemma-2B
+1) Encoder Used: SigLIP-So400m
+2) Decoder used: Gemma-2B
 
 There are three important parts in a Vision Language Model
 1) Image Encoder
