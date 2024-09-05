@@ -4,8 +4,6 @@ Paligemma Finetuning for Medical dataset (Brain Scans)
 
 # Dataset Used:
 The dataset consists of brain scan and corresponding ground truth. 
-1) Train: 161k
-2) Test: 500
 
 Link: gokulsabari/brain-xray (Uploaded in HuggingFace Dataset)
 
