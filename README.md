@@ -44,5 +44,10 @@ PEFT approaches only fine-tune a small number of (extra) model parameters while 
 3) lr: 1e-4
 4) lr scheduler: CosineAnnealingLR (CosineAnnealingLR gradually reduces the learning rate over time following a cosine curve, helping to fine-tune model training by allowing larger steps at the beginning for faster convergence and smaller steps near the end for more precise optimization.)
 
-We were able to get better results by freezing vision encoder and text decoder 
+### We were able to get better results by freezing vision encoder and text decoder 
+
+
+# Finetuned Model Performance
+![image](https://github.com/user-attachments/assets/de9356c4-d266-4abe-8353-4796ff83e063)
+
 
