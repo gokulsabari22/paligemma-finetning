@@ -50,4 +50,8 @@ PEFT approaches only fine-tune a small number of (extra) model parameters while 
 # Finetuned Model Performance
 ![image](https://github.com/user-attachments/assets/de9356c4-d266-4abe-8353-4796ff83e063)
 
+# Base model performance with the same image
+![image](https://github.com/user-attachments/assets/b38da88a-5aea-4659-9e10-f20819a7c48f)
+
+
 
